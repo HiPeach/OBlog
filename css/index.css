@@ -2853,6 +2853,9 @@ blockquote footer cite:before {
 blockquote > :last-child {
   margin-bottom: 0 !important;
 }
+.time_hidden {
+  display: none !important;
+}
 #single_top {
   padding: 1.875rem 1.5rem 0;
   max-width: 1400px;
@@ -4028,7 +4031,7 @@ body[data-type='about'] #web_bg {
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
-  font-size: 0.6rem;
+  font-size: 12px;
 }
 #statistic div span:last-child {
   font-weight: 700;
@@ -4346,7 +4349,7 @@ body[data-type='about'] #web_bg {
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
-  font-size: 0.6rem;
+  font-size: 12px;
   line-height: 1;
   margin-bottom: 8px;
 }
@@ -4434,7 +4437,7 @@ body[data-type='about'] #web_bg {
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
-  font-size: 0.6rem;
+  font-size: 12px;
   margin-bottom: 0.5rem;
 }
 .author-content-item.maxim .maxim-title {
@@ -6588,7 +6591,7 @@ body[data-type="link"] #page .page-title {
   -o-transition: 0.3s;
   -ms-transition: 0.3s;
   transition: 0.3s;
-  font-size: 0.6rem;
+  font-size: 12px;
 }
 .site-card-tag.speed {
   background: var(--anzhiyu-green);
@@ -6981,7 +6984,7 @@ body[data-type="link"] #page .page-title {
   display: box;
   display: flex;
   color: var(--anzhiyu-secondtext);
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   position: relative;
 }
 #recent-posts > .recent-post-item .unvisited-post:visited {
@@ -7009,7 +7012,7 @@ body[data-type="link"] #page .page-title {
   display: box;
   display: flex;
   color: var(--anzhiyu-secondtext);
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   position: relative;
   margin-right: 8px;
 }
@@ -7021,7 +7024,7 @@ body[data-type="link"] #page .page-title {
   display: box;
   display: flex;
   color: var(--anzhiyu-secondtext);
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   position: relative;
   margin-right: 8px;
 }
@@ -14951,7 +14954,7 @@ blockquote {
   border: var(--style-border-always);
 }
 .share-link .share-main .share-main-all .reward-dec {
-  font-size: 0.6rem;
+  font-size: 12px;
 }
 .post-tools .post-tools-left > div {
   margin: 0;
@@ -15185,7 +15188,7 @@ blockquote {
   font-weight: bold;
 }
 .post-reward .reward-main .reward-all .reward-main-btn .reward-dec {
-  font-size: 0.6rem;
+  font-size: 12px;
 }
 .reward-link.mode {
   background: var(--anzhiyu-green);
@@ -19811,7 +19814,7 @@ a
   transition: all 0.3s ease 0s;
 }
 .tk-replies .tk-content span:first-child:not(.token) {
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   color: var(--anzhiyu-secondtext);
 }
 [data-theme="dark"] #owo-big {
@@ -19907,7 +19910,7 @@ a
   font-size: 0.8rem;
 }
 #twikoo .tk-extra-text {
-  font-size: 0.5rem;
+  font-size: 0.75rem;
 }
 #twikoo .tk-replies .tk-content {
   font-size: 0.9rem;
@@ -21451,7 +21454,7 @@ body:has(.post-bg) #he-plugin-simple .s-sticker div {
   border: var(--style-border);
   box-shadow: none;
   margin: 0px 0px 0.5rem;
-  font-size: 0.6rem;
+  font-size: 12px;
   color: var(--anzhiyu-secondtext);
   border-radius: 8px;
 }
@@ -21797,7 +21800,7 @@ details .content > *:nth-child(1) {
 
 #console .author-content-item-tips {
   opacity: 0.8;
-  font-size: 0.6rem;
+  font-size: 12px;
   margin-bottom: 0.5rem;
   color: var(--font-color);
 }
@@ -23898,7 +23901,7 @@ span.top-group-text {
   background: var(--anzhiyu-theme);
   color: var(--anzhiyu-white);
   padding: 2px 8px;
-  font-size: 0.6rem;
+  font-size: 12px;
   border-radius: 12px 0 12px 0;
   transition: 0.3s;
   cursor: pointer;
@@ -24457,7 +24460,7 @@ div#swiper_container:hover {
 
 .topGroup .todayCard .todayCard-info .todayCard-tips {
   opacity: 0.8;
-  font-size: 0.6rem;
+  font-size: 12px;
 }
 
 .topGroup .todayCard .todayCard-info .todayCard-title {
@@ -24577,7 +24580,7 @@ div#swiper_container:hover {
   background: var(--anzhiyu-theme);
   color: var(--anzhiyu-white);
   padding: 2px 8px;
-  font-size: 0.6rem;
+  font-size: 12px;
   border-radius: 12px 0 12px 0;
   transition: 0.3s;
   cursor: pointer;
@@ -27753,7 +27756,7 @@ div#runtime {
 #article-container .tag-Link .tag-link-tips {
   border-bottom: var(--style-border);
   padding-bottom: 4px;
-  font-size: 0.6rem;
+  font-size: 12px;
   color: var(--anzhiyu-gray);
   font-weight: normal;
 }
