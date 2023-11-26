@@ -4270,7 +4270,6 @@ body[data-type='about'] #web_bg {
 }
 .author-content-item .card-content .banner-button-group .banner-button {
   height: 40px;
-  width: 118px;
   border-radius: 20px;
   -webkit-box-pack: center;
   -moz-box-pack: center;
@@ -4280,12 +4279,12 @@ body[data-type='about'] #web_bg {
   justify-content: center;
   background: var(--anzhiyu-white-op);
   color: var(--anzhiyu-white);
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: box;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-box;
+  display: inline-flex;
   -webkit-box-align: center;
   -moz-box-align: center;
   -o-box-align: center;
