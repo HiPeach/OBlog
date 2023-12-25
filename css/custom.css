@@ -2,10 +2,13 @@
 #footer-type-tips {
   font-weight: bold;
 }
-/** Footer 字体加粗 **/
 
 /* 顶部 Banner 阴影 */
 .topGroup .todayCard::after {
   box-shadow: 0 -109px 133px -9px rgb(255 115 115 / 15%) inset;
 }
-/** 顶部 Banner 阴影 **/
+
+/* 隐藏右下角按钮 */
+#rightside {
+  display: none;
+}
