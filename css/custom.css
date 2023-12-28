@@ -12,3 +12,8 @@
 #rightside {
   display: none;
 }
+
+/* 隐藏 AI 摘要下方按钮 */
+.ai-btn-box {
+  display:none;
+}
